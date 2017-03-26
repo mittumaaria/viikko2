@@ -100,10 +100,11 @@ public class StatisticsTest {
         assertEquals(a, stats.team("PIT").get(0).getName());
     }
     @Test
-    public void testTeam3(){
-    
+    public void testTeam3(){    
         assertEquals(0, stats.team("PT").size());
     }
+    
+    
     //*****testiTop**********************************************
     @Test
     public void testiTop1(){
