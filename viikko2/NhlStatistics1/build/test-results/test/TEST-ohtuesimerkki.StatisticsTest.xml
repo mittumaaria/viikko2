@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtuesimerkki.StatisticsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-03-26T18:23:10" hostname="fuxi16" time="0.007">
+<testsuite name="ohtuesimerkki.StatisticsTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2017-03-26T19:20:49" hostname="fuxi16" time="0.01">
   <properties/>
-  <testcase name="testiSearch1" classname="ohtuesimerkki.StatisticsTest" time="0.003"/>
-  <testcase name="testiSearch2" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testiSearch1" classname="ohtuesimerkki.StatisticsTest" time="0.002"/>
+  <testcase name="testiSearch2" classname="ohtuesimerkki.StatisticsTest" time="0.001"/>
   <testcase name="testiSearch3" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
-  <testcase name="testTeam1" classname="ohtuesimerkki.StatisticsTest" time="0.001"/>
+  <testcase name="testiSearch4" classname="ohtuesimerkki.StatisticsTest" time="0.001"/>
+  <testcase name="testiSearch5" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testiSearch6" classname="ohtuesimerkki.StatisticsTest" time="0.001"/>
+  <testcase name="testiSearch7" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testiSearch8" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testiSearch9" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testTeam1" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testTeam2" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testTeam3" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <testcase name="testiTop1" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <testcase name="testiTop2" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

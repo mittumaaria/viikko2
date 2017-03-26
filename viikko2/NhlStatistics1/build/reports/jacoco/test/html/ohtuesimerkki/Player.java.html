@@ -15,7 +15,7 @@ public class Player implements Comparable&lt;Player&gt; {
 <span class="fc" id="L15">    }</span>
         
     public int getAssists() {
-<span class="nc" id="L18">        return assists;</span>
+<span class="fc" id="L18">        return assists;</span>
     }
 
     public void setAssists(int assists) {
@@ -23,7 +23,7 @@ public class Player implements Comparable&lt;Player&gt; {
 <span class="nc" id="L23">    }</span>
 
     public int getGoals() {
-<span class="nc" id="L26">        return goals;</span>
+<span class="fc" id="L26">        return goals;</span>
     }
 
     public void setGoals(int goals) {
@@ -39,7 +39,7 @@ public class Player implements Comparable&lt;Player&gt; {
 <span class="nc" id="L39">    }</span>
 
     public String getTeam() {
-<span class="nc" id="L42">        return team;</span>
+<span class="fc" id="L42">        return team;</span>
     }
 
     public void setTeam(String team) {
@@ -47,17 +47,17 @@ public class Player implements Comparable&lt;Player&gt; {
 <span class="nc" id="L47">    }</span>
 
     public int getPoints() {
-<span class="nc" id="L50">        return goals + assists;</span>
+<span class="fc" id="L50">        return goals + assists;</span>
     }
 
     @Override
     public String toString() {      
-<span class="nc" id="L55">        return String.format(&quot;%-20s&quot;,name) + &quot; &quot; + team + &quot; &quot; + String.format(&quot;%2d&quot;,goals) + &quot; + &quot; </span>
-<span class="nc" id="L56">                + String.format(&quot;%2d&quot;,assists) + &quot; = &quot; + getPoints();</span>
+<span class="fc" id="L55">        return String.format(&quot;%-20s&quot;,name) + &quot; &quot; + team + &quot; &quot; + String.format(&quot;%2d&quot;,goals) + &quot; + &quot; </span>
+<span class="fc" id="L56">                + String.format(&quot;%2d&quot;,assists) + &quot; = &quot; + getPoints();</span>
     }
 
     public int compareTo(Player t) {
-<span class="nc" id="L60">        return t.getPoints()-this.getPoints();</span>
+<span class="fc" id="L60">        return t.getPoints()-this.getPoints();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

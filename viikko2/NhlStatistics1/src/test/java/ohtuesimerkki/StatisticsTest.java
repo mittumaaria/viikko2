@@ -58,10 +58,51 @@ public class StatisticsTest {
     public void testiSearch3(){
         assertEquals("Kurri", stats.search("Kurri").getName());
     }
+    
+    @Test
+    public void testiSearch4(){
+        int a = players.get(0).getAssists();
+        assertEquals(a, stats.search(players.get(0).getName()).getAssists());
+    }
+    @Test
+    public void testiSearch5(){
+        int a = players.get(0).getGoals();
+        assertEquals(a, stats.search(players.get(0).getName()).getGoals());
+    }
+    @Test
+    public void testiSearch6(){
+        int a = players.get(0).getPoints();
+        assertEquals(a, stats.search(players.get(0).getName()).getPoints());
+    }
+    @Test
+    public void testiSearch7(){
+        String a = players.get(0).getTeam();
+        assertEquals(a, stats.search(players.get(0).getName()).getTeam());
+    }
+    @Test
+    public void testiSearch8(){
+        String a = players.get(0).getName();
+        assertEquals(a, stats.search(players.get(0).getName()).getName());
+    }
+    @Test
+    public void testiSearch9(){
+        String a = players.get(0).toString();
+        assertEquals(a, stats.search(players.get(0).getName()).toString());
+    }
     //*********testTeam**************************************'
     @Test
     public void testTeam1(){
         assertEquals(1, stats.team("PIT").size());
+    }
+    @Test
+    public void testTeam2(){
+        String a = players.get(1).getName();
+        assertEquals(a, stats.team("PIT").get(0).getName());
+    }
+    @Test
+    public void testTeam3(){
+    
+        assertEquals(0, stats.team("PT").size());
     }
     //*****testiTop**********************************************
     @Test
