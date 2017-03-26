@@ -3,6 +3,9 @@ apply plugin: 'java'
 
 apply plugin: 'application'
 
+// testauskattavuuden kertoo JaCoCo -plugin
+apply plugin: 'jacoco'
+
 repositories {
     jcenter()
 }
@@ -17,3 +20,5 @@ mainClassName = 'ohtuesimerkki.Main'
 run {
     standardInput = System.in
 }
+
+ 
